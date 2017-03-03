@@ -1,0 +1,54 @@
+{
+  "name": "SC-Janus",
+  "version": "0.0.1-soomTM",
+  "description": "The frst AI from StarCitizen returns, as a fun discord bot.",
+  "homepage": "https://github.com/BTooLs/sc-janus",
+  "author": {
+    "name": "B3aT - Adrian",
+    "email": "btools@gmail.com",
+    "url": "btools.eu"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "https://github.com/BTooLs/sc-janus",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "clapp": "^1.1.1",
+    "discord.js": "^10.0.1",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.2",
+    "moment-timezone": "^0.5.11",
+    "node-dijkstra": "^2.3.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
