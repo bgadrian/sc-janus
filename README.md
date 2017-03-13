@@ -22,6 +22,7 @@ Built with love for SC community by [http://StarCitizen.center].
 * **pledge**: Fetch the latest CIG pledge details like Funds raised so far, number of pledgers and their ship bought count.
 * **time**: Returns the current time for multiple timezones (customizable list).
 * **release**: Returns the release date for StarCitizen.
+* **author**: A small token of appreciation to the original author.
 * **your-command**: add a new .js file in /lib/commands folder.
 
 #Technical
