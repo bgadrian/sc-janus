@@ -4,7 +4,7 @@ If your org has a discord server you can use Janus to entertain your members or 
 
 Built with love for SC community by [http://StarCitizen.center].
 
-##Features
+## Features
 * custom command prefix (usefull when you already have a bot with "!")
 * easy to setup (only a config file)
 * auto delete commands and replies - keep your public channels clean
@@ -13,7 +13,7 @@ Built with love for SC community by [http://StarCitizen.center].
 * custom name - if you don't like Janus, you can change it
 * commands with multiple parameters and/or flags
 
-##Commands
+## Commands
 * **isMember**: Confirms that a RSI handler exists and that is part of our organisation
 * **confirm**: Allow your users to confirm their affiliation to your organisation and automatically add your Membership discord role.
 * **beer**: Any user can order a free random beer, it replies with a random real-life beer name and image using https://beeroverip.org/random/
@@ -25,7 +25,7 @@ Built with love for SC community by [http://StarCitizen.center].
 * **author**: A small token of appreciation to the original author.
 * **your-command**: add a new .js file in /lib/commands folder.
 
-#Technical
+# Technical
 
 ##details
 * needs minimal technical knowledge to setup (bash, json)
@@ -42,7 +42,7 @@ Built with love for SC community by [http://StarCitizen.center].
 
 *Note: I recommend to make a new bot and server for testing/development process.*
 
-##Tech setup
+## Tech setup
  1. Clone this repo
  2. Make a config and populate it
 ```bash
@@ -76,5 +76,5 @@ chmod +x *.sh
 docker logs -f janusbot
 ```
 
-##Thanks
+# Thanks
 If you appreciate and use my work see more on [http://StarCitizen.center] and consider giving credits (back link) and making a donation.
