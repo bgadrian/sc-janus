@@ -25,9 +25,12 @@ Built with love for SC community by [http://StarCitizen.center].
 * **author**: A small token of appreciation to the original author.
 * **your-command**: add a new .js file in /lib/commands folder.
 
+## Video trailer and live demo
+[![trailer logo](http://maintenance.starcitizen.center/media/posters/SCJanus.jpg)](https://youtu.be/POPMwX80AX8)
+
 # Technical
 
-##details
+## Details
 * needs minimal technical knowledge to setup (bash, json)
 * built as a node.js app
 * script to run it inside a docker (recommended)
